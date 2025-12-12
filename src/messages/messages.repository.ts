@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { readFile, writeFile } from "fs/promises";
 export class MessagesRepository{
 
@@ -47,5 +48,11 @@ export class MessagesRepository{
 
 
 
+=======
+import { Injectable } from "@nestjs/common";
+import { readFile, writeFile } from "fs/promises";
+@Injectable()
+export class MessagesRepository {
+>>>>>>> f9ae4f515eea5156ae491d6f19facc5ef5ff3d58
 
 }

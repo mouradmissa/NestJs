@@ -1,6 +1,10 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { INestApplication } from '@nestjs/common';
+<<<<<<< HEAD
 import request from 'supertest';
+=======
+import * as request from 'supertest';
+>>>>>>> f9ae4f515eea5156ae491d6f19facc5ef5ff3d58
 import { App } from 'supertest/types';
 import { AppModule } from './../src/app.module';
 
